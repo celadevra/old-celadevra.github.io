@@ -9,8 +9,7 @@ define(SUBTITLE, Making sense of and making peace with worlds)
 @c %**end of header
 
 @copying
-本文档包括 AUTHOR 的个人网站内容。观点为个人所有，不代表任何集体或
-职业立场。
+本文档是 AUTHOR 的个人网站。观点为个人所有，不代表任何集体或职业立场。
 
 Copyright @copyright{} 2009--syscmd(date +"%Y") AUTHOR
 
@@ -44,7 +43,10 @@ SUBTITLE
 AUTHOR
 @end ifplaintext
 
+@ifnothtml
 @contents
+@end ifnothtml
+
 @documentdescription
 expoundite.net. personal website. essays. blog.
 @end documentdescription
@@ -52,19 +54,25 @@ expoundite.net. personal website. essays. blog.
 
 @ifnottex
 @node Top
-@top 首页
+@top Colophon
 @insertcopying
 
 @menu
 @c * Live living::   Blogs, observations
-* Index::
+* Concept Index::
+* Name Index::
 @end menu
 @end ifnottex
 
-
-@node Index
-@unnumbered Index
+@node Concept Index
+@unnumbered Concept Index
 
 @printindex cp
+
+@node Name Index
+@unnumbered Name Index
+
+@defindex nm
+@printindex nm
 
 @bye
