@@ -1,6 +1,6 @@
 @node 2007-03-29
 @unnumberedsec Nerdy @dots{} or is it?
 
-@image{nerdy_score,,,I am nerdier than 94% of all people. Are you nerdier? Click here to find out!, png}
+@image{assets/images/nerdy_score,,,I am nerdier than 94% of all people. Are you nerdier? Click here to find out!, png}
 
 I like customising my computer’s GUI and CLI. Thus I hate MS Windows which forbids you to do so. Thus people think I am nerdy. To become more so I am considering learning more maths and physics :p.
