@@ -12,4 +12,3 @@ time.
 <img src="http://www.nerdtests.com/images/badge/nt2/de3216b43282d917.png" alt="NerdTests.com says I'm a High Nerd.  Click here to take the Nerd Test, get nerdy images and jokes, and write on the nerd forum!">
 </a>
 @end html
-

@@ -3,6 +3,13 @@
 
 @menu
 * Defiance:: Landscape of War
+* 浪客剑心：追忆篇:: 唯美的暴力与反思的暴力（到底是要说什么？！）
+* Rainbow Six::
 @end menu
 
+其实我很弱鸡，这里的大部分评论没有什么水平……不过写了就算是某种记录，
+所以腆着脸放上来。
+
 @include reviews/defiance-movie.texi
+@include reviews/rurouni-kenshin-movie.texi
+@include reviews/rainbow-six-book.texi
