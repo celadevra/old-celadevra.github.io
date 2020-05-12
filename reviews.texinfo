@@ -3,6 +3,8 @@
 
 @menu
 * Defiance:: Landscape of War
+* 每一刻都是崭新的:: 就喜欢《旅行》
+* Touching the Void:: 抉择，以及登山的残酷与美
 * Sin City:: 孰之罪？
 * 历史研究（单卷本）:: 挑战与应战
 * 浪客剑心：追忆篇:: 唯美的暴力与反思的暴力（到底是要说什么？！）
@@ -13,6 +15,8 @@
 所以腆着脸放上来。
 
 @include reviews/defiance-movie.texi
+@include reviews/its-new-for-every-moment-album.texi
+@include reviews/touching-the-void-movie.texi
 @include reviews/sin-city-movie.texi
 @include reviews/study-of-history-book.texi
 @include reviews/rurouni-kenshin-movie.texi
