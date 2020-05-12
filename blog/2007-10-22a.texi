@@ -1,0 +1,17 @@
+@node 2007-10-22a
+@unnumberedsec Preliminary Imagery Availability Survey
+
+I am looking for satellite images over Anduo County, Tibet Autonomous Region, China.
+
+@itemize
+@item AVHRR： Search at EarthExplorer gives 11577 images in daylight condition, most focus on Indian subcontinent, but should be enough for me.  Dates are from 1980 to 2000s.
+@item Declassified Satellite Imagery-1: Low and medium images taken in 1960s, earliest 1961, from CORONA, ARGON and LANYARD satellites.  Most are medium to low resolution (15-30 m).  A large portion are cloudy.  $30 per frame.
+@item Declassified Satellite Imagery-2: Much higher camera resolution at 2 to 4 feet and 20 to 30 feet, from KH-7 and KH-9.  Taken in 1964-1965 and 1973.  Large swath, relatively lower cloud mask.  $30 per frame.
+@item EO-1: no images.
+@item Landsat 1-5 MSS: From 1972 to 1992.  Some scan line can be seen.  Less cloud.  $200 per frame.
+@item Landsat 4-5 TM: July 1982 to Present.  Good resolution, less cloud.  $425 per frame.
+@item Landsat 7 ETM+ International Ground Stations: No reviews available.  No uniform price.
+@item Landsat 7 ETM+: From 1999 to 2003, some are a bit cloudy.  Most are usable.  $475-600 per frame.
+@item Landsat 7 ETH+ SLC-off: More difficult to process and probably data loss. From 2003 to Present.  Can be downloaded with ordering.  $200-275 per frame.  Landsat 7 ETM+ scenes acquired from 5/31/03 - 7/14/03 and 9/3/03 - 9/17/03 are not available.
+@item SPOT: no image from USGS.
+@end itemize
