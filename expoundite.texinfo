@@ -58,14 +58,14 @@ expoundite.net. personal website. essays. blog.
 @insertcopying
 
 @menu
-* Live Living::   Blogs, observations
+* Blog::   记录与观察
 * Concept Index::
 * Name Index::
 @end menu
 @end ifnottex
 
-@node Live Living
-@unnumbered Live Living --- Blogging and Observations
+@node Blog
+@unnumbered Blog
 
 @include blog.texi
 
