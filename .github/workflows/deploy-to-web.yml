@@ -14,7 +14,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          sudo apt-get -y install texinfo make
+          sudo apt-get -y --no-install-recommends install texinfo make
           make -k
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
