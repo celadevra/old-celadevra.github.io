@@ -6,9 +6,10 @@ changequote(`[[', `]]')
 @c %**end of header
 
 @copying
-Celad Evra 的个人网站。观点为个人所有，不代表任何集体或职业立场。
+本文档包括 Celad Evra 的个人网站内容。观点为个人所有，不代表任何集体或
+职业立场。
 
-Copyright @copyright{} 2009--[[syscmd(date +"%Y")]] Celad Evra.
+Copyright @copyright{} 2009--syscmd(date +"%Y") Celad Evra.
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
@@ -21,3 +22,16 @@ Documentation License".
 
 @end copying
 
+@titlepage
+@title Expoundite
+@subtitle Making sense of and making peace with worlds
+@author Celad Evra
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+
+@end titlepage
+
+@ifplaintext
+@c @titlepage-like contents for plain text output
+@end ifplaintext
