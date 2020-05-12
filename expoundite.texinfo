@@ -59,6 +59,7 @@ expoundite.net. personal website. essays. blog.
 
 @menu
 * Blog::   记录与观察
+* 作品批评::   书、影、音、游戏，及评论本身的批评
 * Concept Index::
 * Name Index::
 @end menu
@@ -68,6 +69,8 @@ expoundite.net. personal website. essays. blog.
 @unnumbered Blog
 
 @include blog.texi
+
+@include reviews.texinfo
 
 @node Concept Index
 @unnumbered Concept Index

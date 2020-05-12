@@ -1,0 +1,8 @@
+@node 作品批评
+@unnumbered 作品批评
+
+@menu
+* Defiance:: Landscape of War
+@end menu
+
+@include reviews/defiance-movie.texi
