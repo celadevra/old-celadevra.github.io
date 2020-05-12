@@ -57,5 +57,14 @@ expoundite.net. personal website. essays. blog.
 
 @menu
 @c * Live living::   Blogs, observations
+* Index::
 @end menu
 @end ifnottex
+
+
+@node Index
+@unnumbered Index
+
+@printindex cp
+
+@bye
