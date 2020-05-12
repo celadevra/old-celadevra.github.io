@@ -45,7 +45,17 @@ AUTHOR
 @end ifplaintext
 
 @contents
+@documentdescription
+expoundite.net. personal website. essays. blog.
+@end documentdescription
 
+
+@ifnottex
 @node Top
 @top 首页
 @insertcopying
+
+@menu
+@c * Live living::   Blogs, observations
+@end menu
+@end ifnottex
