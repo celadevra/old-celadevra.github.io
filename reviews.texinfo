@@ -1,0 +1,8 @@
+@node 评论
+@unnumbered 评论
+
+@menu
+* Defiance:: Landscape of War
+@end menu
+
+@include reviews/defiance-movie.texi
