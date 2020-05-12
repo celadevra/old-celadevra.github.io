@@ -67,9 +67,7 @@ expoundite.net. personal website. essays. blog.
 @node Live Living
 @unnumbered Live Living --- Blogging and Observations
 
-@lowersections
 @include blog.texi
-@raisesections
 
 @node Concept Index
 @unnumbered Concept Index
