@@ -3,6 +3,7 @@
 
 @menu
 * Defiance:: Landscape of War
+* Babel:: 后殖民主义视点
 * 每一刻都是崭新的:: 就喜欢《旅行》
 * Touching the Void:: 抉择，以及登山的残酷与美
 * Sin City:: 孰之罪？
@@ -15,6 +16,7 @@
 所以腆着脸放上来。
 
 @include reviews/defiance-movie.texi
+@include reviews/babel-movie.texi
 @include reviews/its-new-for-every-moment-album.texi
 @include reviews/touching-the-void-movie.texi
 @include reviews/sin-city-movie.texi
