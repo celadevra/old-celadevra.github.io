@@ -1,0 +1,18 @@
+define(BLOG, `blog')
+@ifnottex
+@menu
+@ignore
+The m4 expansion here finds texinfo files in BLOG dir, read the date
+from the filename (YYYY-MM-DD.texi), and the title from
+the @node line, to generate a menu in the format of date::
+title, in descending date order.
+@end ignore
+syscmd(cd BLOG ; ls | sort -r | xargs -I{} grep -H '@unnumberedsec' {} | sed -e 's/\.texi/:/' -e 's/@unnumberedsec/    /' -e 's/^/* /')
+@end menu
+@end ifnottex
+
+@ignore
+The m4 expansion here creates a @include directive for each of the
+texinfo files in BLOG dir, and sort them in descending date order.
+@end ignore
+syscmd(cd BLOG ; ls | sort -r | xargs -I{} grep -H '@unnumberedsec' {} | sed -e 's/\.texi.*$/.texi/' -e 's/^/@include BLOG\//')
