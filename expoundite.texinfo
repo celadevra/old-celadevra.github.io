@@ -6,6 +6,8 @@ define(SUBTITLE, Making sense of and making peace with worlds)
 @c %**start of header
 @setfilename expoundite.info
 @settitle Expoundite
+@documentlanguage zh
+@documentencoding utf-8
 @c %**end of header
 
 @copying
