@@ -1,4 +1,7 @@
 changequote(`[[', `]]')
+define(AUTHOR, Celad Evra)
+define(TITLE, Expoundite)
+define(SUBTITLE, Making sense of and making peace with worlds)
 \input texinfo @c -*-texinfo-*-
 @c %**start of header
 @setfilename expoundite.info
@@ -6,10 +9,10 @@ changequote(`[[', `]]')
 @c %**end of header
 
 @copying
-本文档包括 Celad Evra 的个人网站内容。观点为个人所有，不代表任何集体或
+本文档包括 AUTHOR 的个人网站内容。观点为个人所有，不代表任何集体或
 职业立场。
 
-Copyright @copyright{} 2009--syscmd(date +"%Y") Celad Evra.
+Copyright @copyright{} 2009--syscmd(date +"%Y") AUTHOR
 
 @quotation
 Permission is granted to copy, distribute and/or modify this document
@@ -23,15 +26,26 @@ Documentation License".
 @end copying
 
 @titlepage
-@title Expoundite
-@subtitle Making sense of and making peace with worlds
-@author Celad Evra
+@title TITLE
+@subtitle SUBTITLE
+@author AUTHOR
 @page
 @vskip 0pt plus 1filll
 @insertcopying
 
 @end titlepage
-
+@headings off
 @ifplaintext
 @c @titlepage-like contents for plain text output
+TITLE
+
+SUBTITLE
+
+AUTHOR
 @end ifplaintext
+
+@contents
+
+@node Top
+@top 首页
+@insertcopying
