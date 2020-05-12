@@ -1,5 +1,5 @@
-@node 评论
-@unnumbered 评论
+@node 作品批评
+@unnumbered 作品批评
 
 @menu
 * Defiance:: Landscape of War

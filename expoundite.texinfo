@@ -59,7 +59,7 @@ expoundite.net. personal website. essays. blog.
 
 @menu
 * Blog::   记录与观察
-* 评论::   书、影、音、游戏，及关于评论的评论
+* 作品批评::   书、影、音、游戏，及评论本身的批评
 * Concept Index::
 * Name Index::
 @end menu
