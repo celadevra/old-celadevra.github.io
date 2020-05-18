@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- 本文档是 Celad Evra 的个人网站。观点为个人所有，不代表任何集体或职业立场。
+
+Copyright (C) 2009-2020
+ Celad Evra
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A
+copy of the license is included in the section entitled "GNU Free
+Documentation License".
+ -->
+<!-- Created by GNU Texinfo 6.5, http://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2006-04-29 (Expoundite)</title>
+
+<meta name="description" content="expoundite.net. personal website. essays. blog.">
+<meta name="keywords" content="2006-04-29 (Expoundite)">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<link href="index.html#Top" rel="start" title="Top">
+<link href="Concept-Index.html#Concept-Index" rel="index" title="Concept Index">
+<link href="Blog.html#Blog" rel="up" title="Blog">
+<link href="2006_002d04_002d11.html#g_t2006_002d04_002d11" rel="next" title="2006-04-11">
+<link href="2007_002d03_002d29.html#g_t2007_002d03_002d29" rel="prev" title="2007-03-29">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.indentedblock {margin-right: 0em}
+blockquote.smallindentedblock {margin-right: 0em; font-size: smaller}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smalllisp {margin-left: 3.2em}
+kbd {font-style: oblique}
+pre.display {font-family: inherit}
+pre.format {font-family: inherit}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: inherit; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: inherit; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nolinebreak {white-space: nowrap}
+span.roman {font-family: initial; font-weight: normal}
+span.sansserif {font-family: sans-serif; font-weight: normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+
+
+</head>
+
+<body lang="zh">
+<a name="g_t2006_002d04_002d29"></a>
+<div class="header">
+<p>
+Next: <a href="2006_002d04_002d11.html#g_t2006_002d04_002d11" accesskey="n" rel="next">2006-04-11</a>, Previous: <a href="2007_002d03_002d29.html#g_t2007_002d03_002d29" accesskey="p" rel="prev">2007-03-29</a>, Up: <a href="Blog.html#Blog" accesskey="u" rel="up">Blog</a> &nbsp; [<a href="Concept-Index.html#Concept-Index" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<a name="A-minimum-working-MODFLOW-simulation"></a>
+<h3 class="unnumberedsec">A minimum working MODFLOW simulation</h3>
+
+<p>Today one of my most important tasks is to establish a MODFLOW simulation that can work.  Considering known figures, the simulation has to be very simple.  I may only use BASIC module.
+</p>
+<p>Now I am working with DISCRETION file, which contains information on the size and shape of the cell, as well as layer properties.  The main problem so far is the DEM.  The original file is too dense (with 0.1m resolution), thus I first extracted a part of data, with 100m resolution.  The result is a data file much lighter.  Though the rationale of such resolution choice still remain debatable.
+</p>
+<p>From DEM I can get surface elevation needed by the model.  However, the elevations of layers underneath are also needed.  Thus I need to know the thickness of accotelm and catotelm.  Different from my previous guess, the catotelm depth in different locations may vary quite significantly.  For this period, I will set the catotelm depth to 2m according to Tallis (1973).
+</p>
+<p>Mineral soil depth also varies.  I used Reeve et al.&rsquo;s (2000) simplication to set it to 0.5m.
+</p>
+<p>I found a useful tool for parameterising the model: PMWIN 5.3.  It provides a visual means to parameterise MODFLOW.  As a simple model I just inputed the elevation of each layer.  The hydroconductivities are left to default value.  Gamble et al. (2003) gives transmissivity of <em>10 ft^{2/d}</em> or <em>0.2 ft^{2/d}</em>, using different methods.  I choose <em>10 ft^{2/d}</em> in this case.  Peat porosity also seems to vary.  I choose 0.85, which may need verification during fieldwork.
+</p>
+
+
+</body>
+</html>
