@@ -1,0 +1,6 @@
+@node 2006-05-01
+@unnumberedsec Defining confined/unconfined layer
+
+This is one problem I encountered in the research. Now my groundwater model has 3 layers, representing acrotelm, catotelm and mineral soil respectively. The 1st layer (uppermost) is an unconfined layer with no question. But what about the 2nd? Is the permeability of mineral soil much less than that of catotelm? Besides, what if the water level is below the top of mineral soil level? Can I consider it unconfined layer then?
+
+But Bouwer's (1978) description of unconfined aquifer is "[t]here is no clay or other restricting material at the top of the groundwater, so that groundwater levels are free to rise or fall."  Thus the mineral soil under peat can be considered as unconfined aquifer when the watertable is below its top.

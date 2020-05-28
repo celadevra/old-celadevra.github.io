@@ -1,0 +1,34 @@
+@node 2006-06-11
+@unnumberedsec A somewhat better simulation result
+
+After I redefined the boundary conditions, got rid of RIVER package, adjusted STR1 package and gave river cells constant head, I got such simulation result:
+
+@example
+CUMULATIVE VOLUMES      L**3       RATES FOR THIS TIME STEP      L**3/T
+------------------                 ------------------------           
+
+IN:                                      IN:
+---                                      ---
+CONSTANT HEAD =    63661356.0000         CONSTANT HEAD =     2092976.1300
+DRAINS =           0.0000                DRAINS =           0.0000
+RIVER LEAKAGE =           0.0000         RIVER LEAKAGE =           0.0000
+ET =           0.0000                    ET =           0.0000
+RECHARGE =      871753.8130
+RECHARGE =       28660.4004
+TOTAL IN =    64533108.0000              TOTAL IN =     2121636.5000
+OUT:                                     OUT:
+----                                     ----
+CONSTANT HEAD =    55723300.0000         CONSTANT HEAD =     1831999.0000
+DRAINS =     8146114.5000                DRAINS =      267817.4690
+RIVER LEAKAGE =           0.0000         RIVER LEAKAGE =           0.0000
+ET =      747962.5630                    ET =       24590.5508
+RECHARGE =           0.0000              RECHARGE =           0.0000           
+TOTAL OUT =    64617380.0000             TOTAL OUT =     2124407.0000
+IN - OUT =      -84272.0000              IN - OUT =       -2770.5000  
+PERCENT DISCREPANCY =          -0.13     PERCENT DISCREPANCY =          -0.13
+
+@end example
+
+The discrepancy of the result is much smaller than previous one (82%).  Now I have a model that makes sense.
+
+The next problem would be adjusting parameters using inverse models and make the result converge so multi period simulation is possible.
