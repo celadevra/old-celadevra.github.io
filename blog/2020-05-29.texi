@@ -1,7 +1,7 @@
 @node 2020-05-29
 @unnumberedsec Read It Later 是不是一个伪需求？
 
-早上在 Hackernews 上看到一个叫 pagemarker.io 的@uref{https://pagemarker.io/, 网站}，最近刚好也在想能不能通过 newsletter 的方式（自动化地）挖掘互联网上那些不是“最新”，但依然有价值的内容，于是就发了一条 @uref{https://twitter.com/celadevra/status/1266166487984648192, tweet}。这条被 \@fm100 转了，似乎成了这个 handle 转生以来被 like 最多的一条推，说明大家对这个应用还比较感兴趣？
+早上在 Hackernews 上看到一个叫 pagemarker.io 的@uref{https://pagemarker.io/, 网站}，最近刚好也在想能不能通过 newsletter 的方式（自动化地）挖掘互联网上那些不是“最新”，但依然有价值的内容，于是就发了一条 @uref{https://twitter.com/celadevra/status/1266166487984648192, tweet}。这条被 @@fm100 转了，似乎成了这个 handle 转生以来被 like 最多的一条推，说明大家对这个应用还比较感兴趣？
 
 不过在想具体实现的时候，我发现其实用户很少把 RIL 应用单纯地用作一个“待读缓冲区”，而是把它们当作书签工具。这样一来，我原先想的那个“找出积压了一段时间的文章，确定它的价值分数，再推给读者”的用法就不一定适用，因为我们无从得知用户保存它的原因，而且这也有逼迫用户把作为书签保存的网页标记为已读的意思。
 
